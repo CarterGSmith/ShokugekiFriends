@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c79aa128a5.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Shokugeki</title>
+  </head>
+  <body>
+    <nav>
+      <div class="navLogo">
+        <a href="https://fontmeme.com/food-wars-font/"
+          ><img
+            src="https://fontmeme.com/permalink/240505/91746e93cc8c412eb32fae6fef194c32.png"
+            alt="food-wars-font"
+            border="0"
+        /></a>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="formContainer">
+        <div class="info">
+          <h1>Welcome to Shokugeki Friends!</h1>
+          <h3>
+            "Get ready to wield your spatulas and ignite your culinary passion!"
+          </h3>
+          <p>
+            Attention, aspiring chefs and food enthusiasts! Welcome to Shokugeki
+            Friends, where the kitchen transforms into an arena of creativity
+            and camaraderie! Embark on an epic gastronomic journey as you join
+            hands with your friends to participate in thrilling cooking
+            competitions reminiscent of the legendary Shokugeki battles!
+          </p>
+          <h3>"Unleash your culinary prowess and let your flavors soar!"</h3>
+          <p>
+            Here at Shokugeki Friends, we believe that cooking is not just a
+            skill, but an art form that brings people together. Whether you're a
+            seasoned chef or a novice cook, our platform invites you to showcase
+            your talents, explore new flavors, and create unforgettable culinary
+            masterpieces!
+          </p>
+
+          <h3>"How will you rise to the challenge?"</h3>
+          <p>
+            Simply fill out the form below with the details of your upcoming
+            cooking competition, and watch as the excitement unfolds! From
+            selecting the competition theme to specifying special ingredients,
+            every decision you make will shape the ultimate culinary showdown.
+            Get ready to receive the competition rules via email and prepare for
+            a showdown like no other!
+          </p>
+
+          <h3>
+            "Let the flames of friendship ignite as you embark on your culinary
+            adventure!"
+          </h3>
+          <p>
+            Join us at Shokugeki Friends, where the kitchen is your
+            battleground, and victory is measured in the delight of your taste
+            buds! Are you ready to accept the challenge? Gather your
+            ingredients, sharpen your knives, and let the cooking battles begin!
+          </p>
+        </div>
+
+        <form action="" method="post">
+          <div class="row">
+            <div class="col-25">
+              <label class="formTitles" for="compname">Competition Name</label>
+              <i class="fa-solid fa-shuffle"></i>
+              <!-- "Battle of the Chefs"
+"Culinary Clash"
+"Gourmet Showdown"
+"Cook-off Challenge"
+"Epicurean Encounter"
+"Flavor Face-Off"
+"Taste Bud Tournament"
+"Kitchen Conquest"
+"Gastronomic Duel"
+"Masterchef Melee" -->
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                id="compname"
+                placeholder="Your Competition Name"
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label class="formTitles" for="date">Date of the Competition</label>
+              <i class="fa-regular fa-circle-question"></i>
+            </div>
+            <div class="col-75">
+              <input type="date" id="startdate" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label class="formTitles" for="days">Amount of Days for Preparation</label>
+              <i class="fa-regular fa-circle-question"></i>
+            </div>
+            <div class="col-75">
+              <input type="number" id="compname" placeholder="3" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label class="formTitles" for="type">
+                Type of Competition (Select Multiple for it to be random selection/mixed)
+            </label>
+              <i class="fa-regular fa-circle-question"></i>
+            </div>
+            <div class="col-75">
+              <div class="checkboxOptions">
+                <input type="checkbox" id="comp1" name="comp1" />
+                <label>Skill/Hard Dishes</label>
+                <input type="checkbox" id="comp2" name="comp2" />
+                <label>Main Ingredients</label>
+                <input type="checkbox" id="comp3" name="comp3" />
+                <label>Specific Cuisine</label>
+                <input type="checkbox" id="comp4" name="comp4" />
+                <label>Cuisine Blending</label>
+                <input type="checkbox" id="comp1" name="comp1" />
+                <label>Mystery Ingrident</label>
+                <input type="checkbox" id="comp2" name="comp2" />
+                <label>Cooking Techinque Focus</label>
+                <input type="checkbox" id="comp3" name="comp3" />
+                <label>Ingrident Restriction</label>
+                <input type="checkbox" id="comp4" name="comp4" />
+                <label>Coursed Menu</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label class="formTitles" for="type">
+                Competition Theme
+            </label>
+              <i class="fa-regular fa-circle-question"></i>
+            </div>
+            <div class="col-75">
+              <div class="checkboxOptions">
+                <input type="checkbox" id="theme1" name="theme1" />
+                <label>Comfort Food</label>
+                <input type="checkbox" id="theme2" name="theme2" />
+                <label>Street Food</label>
+                <input type="checkbox" id="theme3" name="theme3" />
+                <label>Desserts</label>
+                <input type="checkbox" id="theme4" name="theme4" />
+                <label>Healthy Dishes</label>
+                <input type="checkbox" id="theme6" name="theme6" />
+                <label>BBQ Bonanza</label>
+                <input type="checkbox" id="theme7" name="theme7" />
+                <label>Breakfast Battle</label>
+                <input type="checkbox" id="theme8" name="theme8" />
+                <label>Fusion Feast</label>
+                <input type="checkbox" id="theme9" name="theme9" />
+                <input type="text" id="themeInput" placeholder="Random">
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label class="formTitles" for="ingredients">Special Ingreidents (Comma Seperated)</label>
+              <i class="fa-regular fa-circle-question"></i>
+            </div>
+            <div class="col-75">
+              <input type="text" id="ingredients" placeholder="Mango, Quinoa, Chili peppers..." />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label class="formTitles" for="presentation">Presentation Style (Comma Seperated)</label>
+              <i class="fa-regular fa-circle-question"></i>
+            </div>
+            <div class="col-75">
+              <input type="text" id="ingredients" placeholder="Fine Dining, Food Truck Style, Deconstructed..." />
+            </div>
+          </div>
+
+          <h3>Optional Rules</h3>
+
+          <div class="row">
+            <div class="col-25">
+              <label class="formTitles" for="timelimit">Time Limit (In Minutes)</label>
+              <i class="fa-regular fa-circle-question"></i>
+            </div>
+            <div class="col-75">
+              <input type="number" id="compname" placeholder="120..." />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label class="formTitles" for="presentation">Ingrident Restriction (Comma Seperated)</label>
+              <i class="fa-regular fa-circle-question"></i>
+            </div>
+            <div class="col-75">
+              <input type="text" id="ingredients" placeholder="Gluten Free, Peanuts, Seafood..." />
+            </div>
+          </div>
+
+
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
